@@ -11,4 +11,129 @@ Version: 		1.6
 /* Theme customization starts here
 -------------------------------------------------------------- */
 
+#Top_bar #logo img {
+	max-height: 200%;
+}
 
+.icon_box .icon_wrapper i {
+	top: -5px;
+}
+
+/********************** HOME BANNER **********************/
+
+.info-mmet {
+	font-size: 34px;
+}
+
+.section.mcb-section.bg-cover {
+    height: 700px;
+}
+
+.section_wrapper.mcb-section-inner {
+	top: 80px;
+}
+
+.intro-txt {
+	padding-top: 50px;
+}
+
+/********************** HOME BANNER END **********************/
+
+
+
+/********************** WEGLOT **********************/
+
+.wg-default {
+	right: 100px;
+}
+
+/********************** WEGLOT END **********************/
+
+
+
+/********************** POPUP CONTACT **********************/
+
+#popup_contact > a.button {
+	top: -20px;
+	color: white;
+    	background: #221330;
+	border: 1px solid white;
+}
+
+/********************** POPUP CONTACT END **********************/
+
+
+
+/********************** FOOTER **********************/
+
+.logo-footer {
+	width: 50%;
+	filter: invert(100%);
+}
+
+.inside {
+    padding-bottom: 30px;
+}
+
+aside#text-11 {
+	padding-top: 40px;
+}
+
+.address-txt {
+	color: #ff7713;
+}
+/********************** FOOTER END **********************/
+
+
+
+/********************** MOBILE VIEW **********************/
+
+@media (max-width: 768px) {
+	.wg-default {
+    		right: 260px;
+	}
+
+	#popup_contact > a.button {
+    		top: -110px;
+    		right: -20px;
+	}
+}
+
+@media (max-width: 414px) {
+	.wg-default {
+    		right: 245px;
+	}
+
+	#popup_contact > a.button {
+    		top: -20px;
+    		right: -20px;
+	}
+
+	.column_attr.clearfix.align_center {
+   		 margin-bottom: 30px;
+	}
+	
+	.textwidget {
+    		text-align: center;
+	}
+
+	.fancy_heading .title {
+   	 	font-size: 30px;
+	}
+
+	.googleplay-btn {
+		margin-bottom: 10px;
+	}
+
+	.appstore-btn {
+		margin-bottom: 20px;
+	}
+
+	#popup_contact {
+		display: inherit;
+	}
+
+	.intro-info {
+		font-size: 14px;
+	}
+}
